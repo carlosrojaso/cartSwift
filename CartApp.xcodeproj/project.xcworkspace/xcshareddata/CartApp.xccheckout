@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FCD7953D-BA0E-4180-B6E3-D576EB89FBC1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CartApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>695BBD6D07D29752BFCCEAED67D64C984ACB9568</key>
+		<string>https://github.com/carlosrojaso/cartSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CartApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>695BBD6D07D29752BFCCEAED67D64C984ACB9568</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/carlosrojaso/cartSwift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>695BBD6D07D29752BFCCEAED67D64C984ACB9568</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>695BBD6D07D29752BFCCEAED67D64C984ACB9568</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cartSwift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
