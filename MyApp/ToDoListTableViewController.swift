@@ -89,12 +89,14 @@ import UIKit
         var todoitem: ToDoItem = self.toDoItems.objectAtIndex(indexPath.row) as! ToDoItem
         
         // format the item
-        
         var tmpText = todoitem.itemName as String + " $ " + String(todoitem.price)
-        tmpText += " - " + String(todoitem.stock) + " Units"
+        tmpText += " - " + String(todoitem.stock) + " Units (Buy!!!)"
         cell.textLabel?.text = tmpText
+
+            
+        /*
         
-        /*var label: UILabel = UILabel(frame: CGRectMake(50, 50, 50, 100))
+        var label: UILabel = UILabel()
         label.textAlignment = NSTextAlignment.Right
         label.textAlignment = .Right
         label.text = "Buy"
@@ -104,8 +106,10 @@ import UIKit
         label.font = UIFont(name: "HelveticaNeue", size: CGFloat(22))
         
         cell.addSubview(label)
-        
         */
+        
+
+
         
         return cell
     }
