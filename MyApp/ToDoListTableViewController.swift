@@ -22,6 +22,7 @@ import UIKit
     }
     
     var toDoItems: NSMutableArray = []
+    var cart: NSMutableArray = []
    
     
     override func viewDidLoad(){
@@ -112,8 +113,18 @@ import UIKit
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: false)
         var tappedItem: ToDoItem = self.toDoItems.objectAtIndex(indexPath.row) as! ToDoItem
-        //tappedItem.completed = !tappedItem.completed
+    
+        
+        var itemCart = ToDoItem(name:tappedItem.itemName as String, stock:1, price:tappedItem.price)
+        self.cart.addObject(itemCart)
         tappedItem.minusOne()
+        
+        println("Item agregado al carro");
+        
+        println("Compra total" + "500");
+        
+        
+        
         if(tappedItem.stock == 0){
             self.toDoItems.removeObjectAtIndex(indexPath.row)
         }

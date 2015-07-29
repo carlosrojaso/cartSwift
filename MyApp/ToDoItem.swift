@@ -11,7 +11,6 @@ import Foundation
 class ToDoItem: NSObject{
 
     var itemName: NSString = ""
-    var completed: Bool = false
     var creationDate: NSDate = NSDate()
     var stock: NSInteger = 0
     var price: NSInteger
